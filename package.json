@@ -1,0 +1,17 @@
+{
+  "name": "dibs-capital-autopilot-controlled-draws",
+  "version": "0.1.0",
+  "description": "Track A reference engine: multi-tenant, policy-enforced controlled-draw control plane.",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node scripts/demo.js",
+    "start": "node src/server.js"
+  }
+}
